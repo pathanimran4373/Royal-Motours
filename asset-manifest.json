@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/car-shop/static/css/main.86341cce.css",
+    "main.js": "/car-shop/static/js/main.c5002c47.js",
+    "static/media/letter-bg.png": "/car-shop/static/media/letter-bg.f7f31fd21bd4593b9962.png",
+    "index.html": "/car-shop/index.html",
+    "main.86341cce.css.map": "/car-shop/static/css/main.86341cce.css.map",
+    "main.c5002c47.js.map": "/car-shop/static/js/main.c5002c47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86341cce.css",
+    "static/js/main.c5002c47.js"
+  ]
+}
