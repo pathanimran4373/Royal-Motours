@@ -1,0 +1,66 @@
+
+    .nav-btn {
+        display: none;
+        cursor: pointer;
+        padding: 5px;
+        background: transparent;
+        border: none;
+        color: purple;
+        opacity: 0;
+        font-size: 10px;
+    }
+
+   
+    /* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    
+    .header{
+        margin: 0;
+        padding: 0 !important;
+        width: 100%;
+        
+    }
+    .header .logo {
+        
+        margin-left: 2rem;
+        
+    }
+
+   .nav-btn{
+    display: block !important;
+        opacity: 1 !important;
+        margin-bottom: 2rem !important;
+        padding-bottom: 1rem !important;
+        font-size: 3rem !important;
+    }
+    .navbar{
+        position: fixed;
+        top: 0;left: 0;
+        height: 50vh;
+        width: 100% ;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 2.5rem;
+        background-color: rgba(0, 0, 0, 0.6);
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+     .menu {
+        padding: 1rem;
+        margin-left: 3rem;
+        margin-top: 1rem;
+        font-size: 2rem !important;
+        color: white !important;
+        font-weight: 300 !important;
+    }
+     .responsive_nav{
+        transform: none;
+    }
+   .navbar .nav-close-btn{
+        position: absolute;
+        top: 2rem;right: 2rem;
+    }
+
+}
