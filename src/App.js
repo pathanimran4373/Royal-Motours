@@ -1,15 +1,15 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './componant/home';
-import Vehicles from './componant/vehicles';
-import Services from './componant/services';
-import Rating from './componant/rating';
-import Contact from './componant/contact'
-import Navbar from './componant/navbar';
-import IconsContainer from './componant/icons-container';
-import Footer from './componant/Footer';
-import ResisterPage from './componant/Resister-page';
-import SignUp from './componant/SignUp';
-import FeaturedCar from './componant/FeaturedCar'
+import Home from './module/dashbord/home';
+import Vehicles from './module/dashbord/banner/vehicles';
+import Services from './module/dashbord/service/services';
+import Rating from './module/dashbord/userRating/rating';
+import Contact from './module/auth/contact'
+import Navbar from './module/common/header';
+import IconsContainer from './module/dashbord/about/icons-container';
+import Footer from './module/common/footer';
+import ResisterPage from './module/auth/Resister-page';
+import SignUp from './module/auth/SignUp';
+import FeaturedCar from './module/dashbord/exploreMore/FeaturedCar'
 
 
 function App() {

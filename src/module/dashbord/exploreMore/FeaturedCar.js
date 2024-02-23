@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import feturedDeta from './FeaturedJSON';
+import feturedDeta from '../../db/FeaturedJSON';
 import './product.css'
 
 function FeaturedCar() {
