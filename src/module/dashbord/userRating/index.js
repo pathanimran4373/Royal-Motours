@@ -61,7 +61,7 @@ export default Rating;
 function Review({ imageSrc, altText, content, author }) {
   return (
     <div className="swiper-slide box">
-      <img src={imageSrc} alt={altText} />
+      <img src={imageSrc} alt={altText} loading="lazy"/>
       <div className="content">
         <p>{content}</p>
         <h3>{author}</h3>
