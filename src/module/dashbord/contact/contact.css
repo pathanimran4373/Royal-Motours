@@ -1,0 +1,47 @@
+.contact .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 2rem 0 2rem 0;
+    min-height: 80vh;
+    width: 90%;
+    margin: 5px auto;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    border: var(--border);
+
+}
+
+.contact .row .map {
+    flex: 1 1 40%;
+    padding: 2rem;
+    margin: 2rem 0 2rem 0;
+}
+
+.contact .row form {
+    padding: 2rem 0 2rem 0;
+    margin: 2rem 0 2rem 0;
+    flex: 1 1 40%;
+    text-align: center;
+}
+
+.contact .row form h3 {
+    font-size: 2rem;
+    color: var(--black);
+    padding-bottom: 1rem;
+}
+
+.contact .row form .inputBox {
+    width: 80%;
+    border-radius: .5rem;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    text-transform: none;
+    border: var(--border);
+    margin: 10px;
+}
+
+.contact .row form textarea {
+    height: 11rem;
+    resize: none;
+}

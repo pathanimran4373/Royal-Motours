@@ -1,0 +1,97 @@
+/* vehicles section css */
+
+.Row {
+  position: relative;
+ margin: 50px 0 100px 0;
+  text-align: center;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.hed {
+  margin-top: 5rem;
+  padding-top: 5rem;
+  text-align: center;
+  z-index: 3;
+}
+
+.row-container {
+  margin-top: 20rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.row-container.active {
+  opacity: 1;
+}
+
+.swiper-slide-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.vehicles .vehicles-slider .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+swiper-slide-box img {
+  width: 60%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content h3 {
+  font-size: 2.5rem;
+  color: var(--black);
+}
+
+.content .price {
+  font-size: 2.2rem;
+  color: var(--yellow);
+  padding: 1rem 0;
+  font-weight: bolder;
+}
+
+.content .price span {
+  color: var(--light-color);
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.content p {
+  font-size: 1.6rem;
+  color: var(--light-color);
+  padding: 1rem 0;
+  padding-top: 1.5rem;
+  border-top: var(--border);
+}
+
+.vehicles .vehicles-slider .box .content span {
+  font-size: 1rem;
+  color: var(--yellow);
+  padding: 0 0.5rem;
+}
+
+.bullet-col {
+  background: var(--yellow);
+  border-radius: 50%;
+  margin: 0 5px 0 5px;
+}

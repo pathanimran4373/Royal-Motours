@@ -10,7 +10,6 @@ function FeaturedCar() {
         const updateItem = feturedDeta.filter((curElement) => {
             return curElement.category === categItem;
         });
-        console.log('updateItem')
         setItem(updateItem);
     }
     return (
