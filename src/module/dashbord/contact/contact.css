@@ -12,12 +12,16 @@
 
 }
 
-.contact .row .map {
+.google-map {
     flex: 1 1 40%;
     padding: 2rem;
     margin: 2rem 0 2rem 0;
 }
-
+.map{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1/1;
+}
 .contact .row form {
     padding: 2rem 0 2rem 0;
     margin: 2rem 0 2rem 0;

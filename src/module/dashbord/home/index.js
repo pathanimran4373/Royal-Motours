@@ -5,7 +5,7 @@ import FeaturedCar from "../exploreMore";
 import Rating from "../userRating";
 import About from "../about"
 import Contact from "../contact";
-
+import "./home.css"
 function Home() {
   return (
     <>
