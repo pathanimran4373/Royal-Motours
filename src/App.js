@@ -1,7 +1,7 @@
 import React, { Suspense, lazy } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./module/common/header";
-
+import LoadingPage from "./module/dashbord/loadingPage";
 // Lazy loading for components
 const Home = lazy(() => import("./module/dashbord/home"));
 const Vehicles = lazy(() => import("./module/dashbord/banner"));
@@ -16,7 +16,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<LoadingPage/>}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/register" element={<ResisterPage />} />
